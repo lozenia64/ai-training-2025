@@ -42,7 +42,7 @@ Cursor의 Composer 기능을 웹 브라우징과 연동하기 위해 Playwright 
 ## 4. OpenAI SSL 인증서 오류 우회 (Corporate Proxy 이슈)
 사내 보안 네트워크로 인해 OpenAI API 호출 시 `SSL: CERTIFICATE_VERIFY_FAILED` 오류가 발생하는 경우, 커서를 사용해 SSL 검증을 우회할 수 있습니다.
 ```
-openai api를 사용하는데 ssl 인증 오류가 발생하고 있어. httpx를 사용하여 ssl인증을 우회하도록 수정해줘.
+openai api를 사용하는데 회사 내부망이라 api 호출 시 ssl 인증 오류가 발생하고 있어. httpx를 사용하여 ssl인증을 우회하도록 수정해줘.
 ```
 
 

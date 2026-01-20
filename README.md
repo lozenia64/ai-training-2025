@@ -10,10 +10,10 @@
   - 확인 방법: `node -v`
 
 ## 2. MCP 설정 (Playwright)
-Cursor의 Composer 기능을 웹 브라우징과 연동하기 위해 Playwright MCP 서버를 설정합니다.
+Copilot의 Composer 기능을 웹 브라우징과 연동하기 위해 Playwright MCP 서버를 설정합니다.
 ```
 {
-  "mcpServers": {
+  "servers": {
     "playwright": {
       "command": "npx",
       "args": [
@@ -34,10 +34,6 @@ Cursor의 Composer 기능을 웹 브라우징과 연동하기 위해 Playwright 
 ### 3-2. RAG (검색 증강 생성) 실습
 - [ ] 사내 문서를 참조하여 답변하는 챗봇 프로토타입 구현
 - [RAG 실습 결과 제출](https://form.jotform.com/253483667146466)
-
-### 3-3. Agent (에이전트) 실습
-- [ ] 도구(Tools)를 스스로 선택하여 문제를 해결하는 에이전트 구현
-- [AGENT 실습 결과 제출](https://form.jotform.com/253483576392468)
 
 ## 4. OpenAI SSL 인증서 오류 우회 (Corporate Proxy 이슈)
 사내 보안 네트워크로 인해 OpenAI API 호출 시 `SSL: CERTIFICATE_VERIFY_FAILED` 오류가 발생하는 경우, 커서를 사용해 SSL 검증을 우회할 수 있습니다.
